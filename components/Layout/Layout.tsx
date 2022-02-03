@@ -12,7 +12,7 @@ const Layout = ({ children, title = "Jami Partners" }: Props) => (
     <Head>
       <title>{title}</title>
     </Head>
-    <Header />
+
     <main>{children}</main>
   </div>
 );
