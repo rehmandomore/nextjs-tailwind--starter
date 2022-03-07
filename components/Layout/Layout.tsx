@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
-import Header from "../Header";
 
 type Props = {
   children?: ReactNode;
@@ -12,7 +11,6 @@ const Layout = ({ children, title = "Jami Partners" }: Props) => (
     <Head>
       <title>{title}</title>
     </Head>
-
     <main>{children}</main>
   </div>
 );
